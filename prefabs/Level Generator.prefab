@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1943718426615473234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1943718426615473244}
+  - component: {fileID: 1943718426615473235}
+  m_Layer: 0
+  m_Name: Level Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1943718426615473244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943718426615473234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1943718426615473235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943718426615473234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cbb87aceedaac540aa756fc7729a355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingPositions: []
+  RoomTypes:
+  - {fileID: 164229845623864674, guid: 98c197d1cb130344a8ed80841078cad7, type: 3}
+  - {fileID: 1130158032076797385, guid: 3cebb62e5bebc2a49af9cbd168aee81c, type: 3}
+  - {fileID: 3845699595102008453, guid: 98614e09ed717eb4a8f458a1e0a83a20, type: 3}
+  - {fileID: 3995983745003759802, guid: 698a37c87cc53fa4a8e3cf9a82f2811b, type: 3}
+  - {fileID: 2797373919421529317, guid: 10b47ce3c088aea4e9bdba2d6dfbb0ec, type: 3}
+  - {fileID: 4704406413822475673, guid: fdb36611aaa28974ab7e48d5ced1da09, type: 3}
+  - {fileID: 6834854447280978697, guid: b26e5e30d9621844a83a488c5224637d, type: 3}
+  - {fileID: 1203837393985267885, guid: ca71bced2ee80544693d57d23f74f1c6, type: 3}
+  - {fileID: 353846839790669041, guid: 5191fe56729f26a4b8eb399bcd1265ea, type: 3}
+  - {fileID: 3479892320068083876, guid: 2c56e11ca3bbdcc40a95aa4783eb9784, type: 3}
+  - {fileID: 1967499744116156791, guid: c26e68e72c346934c839b976898a3853, type: 3}
+  - {fileID: 7543437407082847269, guid: 20a543c9b61290c409c2fbcb52fc804c, type: 3}
+  - {fileID: 1121254529171522215, guid: 5ddc40c0b30f8e14a970b5ba5940b1ac, type: 3}
+  - {fileID: 5625181369181931309, guid: acffded84d9d03c43b3bd85a6f99f555, type: 3}
+  WallTypes:
+  - {fileID: 1174203464990551310, guid: fa65ca2719a39d546997f828baa581b3, type: 3}
+  TileTypes:
+  - {fileID: 7659534498311960233, guid: 22ba1bcba8318814eb7ef2b34a67f65f, type: 3}
+  RoomContentTypes:
+  - {fileID: 3884376955229892824, guid: f8656bf12362b5d448ab57ab2d45cdb4, type: 3}
+  - {fileID: 2911464126394543579, guid: 2b30e4362d5ac5543ae13399beb45e51, type: 3}
+  - {fileID: 3101970147521514952, guid: 92824f871890c724c8150dd0d597d5d5, type: 3}
+  LevelWidth: 6
+  LevelHeight: 6
+  player: {fileID: 7607134871289481233, guid: b3de2190ae6a22f469546dda77be9127, type: 3}
